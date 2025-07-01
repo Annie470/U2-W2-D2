@@ -1,15 +1,177 @@
-<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CatZilla Fly</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous" />
+  </head>
 
-<head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary px-3">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand w-25 text-center d-flex flex-row align-items-center"
+            href="#">
+            <img
+              class="w-50"
+              src="./img/Immagine_WhatsApp_2025-06-23_ore_16.44.03_3b4cd372-removebg-preview.png"
+              alt="logo" />
+            <h4 class="fw-bold">ToTheVirtual</h4>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Saldi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Welcome Summer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Last Minute</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Recensioni</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2 border-dark-subtle"
+                type="search"
+                placeholder="Cerca virtual place"
+                aria-label="Search" />
+              <button class="btn btn-outline-danger" type="submit">
+                Cerca
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="container bg-body-tertiary p-5 my-4 rounded-3">
+          <div class="row">
+            <div class="col-12 border-bottom">
+              <div class="row g-3 align-items-center w-100">
+                <div class="col d-flex align-items-center">
+                  <h2 class="text-dark-emphasis fw-normal">ToTheVirtual</h2>
+                  <h6 class="text-dark-emphasis fw-light ms-1">
+                    - Feel the Freedom
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 my-2">
+              <p class="fst-italic fs-2 text-dark-emphasis">
+                Scopri la destinazione più amata dai click-event!
+              </p>
+            </div>
+            <div class="col-12">
+              <button type="button" class="btn btn-info text-white px-5">
+                Penota ora
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col d-flex justify-content-between">
+              <h4>Saldi</h4>
+              <button
+                class="btn text-info"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#miaSezione"
+                aria-expanded="false"
+                aria-controls="miaSezione">
+                Nascondi sezione
+              </button>
+            </div>
+          </div>
+          <div id="miaSezione" class="row">
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./img/5212968.jpg"
+                  class="card-img-top w-100"
+                  alt="sunset" />
+                <div class="card-body">
+                  <h5 class="card-title">Virtual Sunset #1</h5>
+                  <p class="card-text">
+                    Ammira l'effetto FadeOut del virtual sunset. Il tramonto che
+                    si carica lentamente...
+                  </p>
+                  <a href="#" class="btn btn-primary">Acquista</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./img/5212968.jpg"
+                  class="card-img-top w-100"
+                  alt="sunset" />
+                <div class="card-body">
+                  <h5 class="card-title">Virtual Sunset #2</h5>
+                  <p class="card-text">
+                    Ammira l'effetto FadeOut del virtual sunset. Il cielo si
+                    dipinge con un bel gradient verticale.
+                  </p>
+                  <a href="#" class="btn btn-primary">Acquista</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./img/5212968.jpg"
+                  class="card-img-top w-100"
+                  alt="sunset" />
+                <div class="card-body">
+                  <h5 class="card-title">Virtual Sunset #3</h5>
+                  <p class="card-text">
+                    Ammira l'effetto FadeOut del virtual sunset. Il tramonto è
+                    il miglior background predefinito.
+                  </p>
+                  <a href="#" class="btn btn-primary">Acquista</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
-    <!-- Abbiamo bisogno di un sito web per un'agenzia di viaggi!
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
 
-In questa pagina aggiungerai destinazioni di posti che sogni di visitare in futuro.
-
-Il progetto non richiede alcuna customizzazione di CSS, dovrai crearlo interamente usando le classi di bootstrap, sia per quello che riguarda il layout che lo stile.
-
-
+<!-- 
 Testa frequentemente il tuo lavoro nelle 3 principali risoluzioni (mobile, tablet, desktop) usando i developer tools del browser nella sezione emulazione device, per una maggiore precisione.
 
 Inizia utilizzando i componenti esistenti di Bootstrap 5 per creare la tua pagina (modificali all'occorrenza utilizzando le utility classes di bootstrap: colori, spazi, margini, dimensioni etc...)
@@ -92,8 +254,3 @@ EXTRAS
 17) Crea una funzione che rimuova tutte le "card" dalla pagina
 
 -->
-</head>
-
-<body></body>
-
-</html>
