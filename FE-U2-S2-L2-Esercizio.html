@@ -67,6 +67,7 @@
         </div>
       </nav>
     </header>
+
     <main class="p-2">
       <section class="my-5">
         <div class="container bg-body-tertiary p-5 my-4 rounded-3">
@@ -358,8 +359,53 @@
           <div class="row">
             <div class="col">
               <div class="row">
-                <div class="col-1 rounded-circle border-info">
-                  <img class="w-100" src="./img/user.jpg" alt="" />
+                <div class="col-4 col-lg-1">
+                  <img
+                    class="w-100 rounded-circle border border-info border-4"
+                    src="./img/user.jpg"
+                    alt="sern" />
+                </div>
+                <div class="col">
+                  <h4>Username</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Ipsa architecto sed impedit sequi unde veniam deserunt nemo
+                    voluptatibus culpa ad aliquam soluta, quia commodi molestias
+                    eaque modi dolore eligendi exercitationem?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="row">
+                <div class="col-4 col-lg-1">
+                  <img
+                    class="w-100 rounded-circle border border-info border-4"
+                    src="./img/user.jpg"
+                    alt="sern" />
+                </div>
+                <div class="col">
+                  <h4>Username</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Ipsa architecto sed impedit sequi unde veniam deserunt nemo
+                    voluptatibus culpa ad aliquam soluta, quia commodi molestias
+                    eaque modi dolore eligendi exercitationem?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="row">
+                <div class="col-4 col-lg-1">
+                  <img
+                    class="w-100 rounded-circle border border-info border-4"
+                    src="./img/user.jpg"
+                    alt="sern" />
                 </div>
                 <div class="col">
                   <h4>Username</h4>
@@ -375,30 +421,89 @@
           </div>
         </div>
       </section>
+
+      <aside class="text-end p-4">
+        <div id="liveAlertPlaceholder"></div>
+        <button type="button" class="btn btn-info" id="liveAlertBtn">
+          Conta Viaggi
+        </button>
+      </aside>
     </main>
+
+    <footer class="d-flex flex-column align-items-center py-2 bg-light">
+      <button
+        type="button"
+        class="btn btn-secondary btn-lg my-3"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal">
+        Contattaci!
+      </button>
+      <h6>CatZilla Fly 2025</h6>
+
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">
+                Mandaci un email!
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+              <form>
+                <div class="mb-3">
+                  <label
+                    for="exampleFormControlInput1"
+                    class="form-label text-dark"
+                    >Email</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="latuaemail@example.com" />
+                </div>
+                <div class="mb-3">
+                  <label
+                    for="exampleFormControlTextarea1"
+                    class="form-label text-black"
+                    >Dicci quel che vuoi..</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"></textarea>
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-light border border-2 w-25">
+                  Invia
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous"></script>
+    <script src="./script/js.js"></script>
   </body>
 </html>
 
 <!-- 
-11) Crea un footer con le informazioni dell'agenzia e un bottone "Contattaci".
-
-
-
-EXTRAS
-
-12) Crea un bottone vicino ad ogni sezione per collassarla e riaprirla se premuto.
-
-13) Crea la possibilità di contare il numero di "viaggi" presenti sulla pagina e visualizzare il risultato in un alert.
-
-14) Crea un modale con un campo email e un messaggio.
-
-15) Quando l'utente cliccherà su "Contattaci", il modale dovrà essere visualizzato.
-
 16) Crea una funzione che aggiunga un badge con la scritta "HOT" su ognuna delle offerte "Welcome Summer" posizionato in alto a destra.
 
 17) Crea una funzione che rimuova tutte le "card" dalla pagina
